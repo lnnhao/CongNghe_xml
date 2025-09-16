@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<store>
+    <product id="P01" category="Điện tử" price="150" currency="VND">Điện thoại Samsung</product>
+    <product id="P02" category="Điện tử" price="200" currency="VND">Laptop Dell</product>
+    <product id="P03" category="Thời trang" price="500" currency="USD">Áo sơ mi nam</product>
+</store>

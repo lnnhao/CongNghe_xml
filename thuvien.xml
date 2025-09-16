@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+    <book>
+        <title>Lập trình Python cơ bản</title>
+        <author>Nguyễn Thanh Minh</author>
+        <year>2021</year>
+        <genre>Lập trình</genre>
+    </book>
+
+    <book>
+        <title>Cơ sở dữ liệu</title>
+        <author>Trần Thị Yến</author>
+        <year>2019</year>
+        <genre>Công nghệ thông tin</genre>
+    </book>
+
+    <book>
+        <title>Kỹ năng mềm trong công việc</title>
+        <author>Lê Hoàn Thành</author>
+        <year>2020</year>
+        <genre>Kỹ năng sống</genre>
+    </book>
+</library>
