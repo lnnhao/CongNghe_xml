@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="student_IDREF.xsd">
+
+    <students>
+        <student id="S001">
+            <name>Nguyễn Văn A</name>
+            <major>Công nghệ thông tin</major>
+        </student>
+
+        <student id="S002">
+            <name>Trần Thị B</name>
+            <major>Kế toán</major>
+        </student>
+
+        <student id="S003">
+            <name>Lê Văn C</name>
+            <major>Quản trị kinh doanh</major>
+        </student>
+    </students>
+
+    <courses>
+        <course id="C001" studentRef="S001">
+            <title>Cơ sở dữ liệu</title>
+        </course>
+
+        <course id="C002" studentRef="S002">
+            <title>Lập trình Java</title>
+        </course>
+
+        <course id="C003" studentRef="S003">
+            <title>Kinh tế vi mô</title>
+        </course>
+    </courses>
+
+</school>

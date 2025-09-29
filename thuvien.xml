@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
 
 <library>
-    <book>
-        <title>Lập trình Python cơ bản</title>
-        <author>Nguyễn Thanh Minh</author>
-        <year>2021</year>
-        <genre>Lập trình</genre>
-    </book>
-
-    <book>
-        <title>Cơ sở dữ liệu</title>
-        <author>Trần Thị Yến</author>
+    <book id="B001">
+        <title>Lập trình C++ cơ bản</title>
+        <author>Nguyễn Văn C</author>
         <year>2019</year>
         <genre>Công nghệ thông tin</genre>
     </book>
 
-    <book>
-        <title>Kỹ năng mềm trong công việc</title>
-        <author>Lê Hoàn Thành</author>
+    <book id="B002">
+        <title>Cơ sở dữ liệu</title>
+        <author>Trần Thị D</author>
         <year>2020</year>
-        <genre>Kỹ năng sống</genre>
+        <genre>Khoa học máy tính</genre>
+    </book>
+
+    <book id="B003">
+        <title>Kinh tế học vi mô</title>
+        <author>Lê Văn E</author>
+        <year>2018</year>
+        <genre>Kinh tế</genre>
     </book>
 </library>

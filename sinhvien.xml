@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="students.xsd">
 
-<class>
-    <student>
-        <name>Nguyễn Thái Công</name>
-        <id>SV01</id>
-        <subjects>
-            <subject>
-                <subject_name>Lập trình Java</subject_name>
-                <score>8.5</score>
-            </subject>
-            <subject>
-                <subject_name>Cơ sở dữ liệu</subject_name>
-                <score>7.8</score>
-            </subject>
-        </subjects>
+    <student id="S001">
+        <name>Nguyễn Văn A</name>
+        <dob>2000-05-12</dob>
+        <major>Công nghệ thông tin</major>
     </student>
 
-    <student>
-        <name>Trần Thị Ánh Kiều</name>
-        <id>SV02</id>
-        <subjects>
-            <subject>
-                <subject_name>Mạng máy tính</subject_name>
-                <score>9.0</score>
-            </subject>
-            <subject>
-                <subject_name>Hệ điều hành</subject_name>
-                <score>8.2</score>
-            </subject>
-        </subjects>
+    <student id="S002">
+        <name>Trần Thị B</name>
+        <dob>2001-11-23</dob>
+        <major>Kế toán</major>
     </student>
-
-    <student>
-        <name>Hoàng Minh Hoàn</name>
-        <id>SV03</id>
-        <subjects>
-            <subject>
-                <subject_name>Cấu trúc dữ liệu</subject_name>
-                <score>7.5</score>
-            </subject>
-            <subject>
-                <subject_name>Lập trình Web</subject_name>
-                <score>8.7</score>
-            </subject>
-        </subjects>
-    </student>
-</class>
+</students>
