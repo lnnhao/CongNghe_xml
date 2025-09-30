@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="student.xsd">
+
+    <KHOA>
+        <MA>K001</MA>
+        <TEN>cntt</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K002</MA>
+        <TEN>qtkd</TEN>
+    </KHOA>
+    <LOP>
+        <MA>L001</MA>
+        <TEN>CN42A</TEN>
+        <Khoa>K001</Khoa>
+    </LOP>
+    <LOP>
+        <MA>L002</MA>
+        <TEN>QTKD01</TEN>
+        <Khoa>K002</Khoa>
+    </LOP>
+    <SINHVIEN>
+        <MSSV>SV001</MSSV>
+        <HOTEN>Nguyen Van A</HOTEN>
+        <EMAIL>vana@example.com</EMAIL>
+        <DIACHI>123 Le Loi</DIACHI>
+        <SDT>0123456789</SDT>
+        <Lop>L001</Lop>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV002</MSSV>
+        <HOTEN>Tran Thi B</HOTEN>
+        <EMAIL>thib@example.com</EMAIL>
+        <DIACHI>456 Tran Hung Dao</DIACHI>
+        <SDT>0987654321</SDT>
+        <Lop>L001</Lop>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV003</MSSV>
+        <HOTEN>Le Van C</HOTEN>
+        <EMAIL>lec@example.com</EMAIL>
+        <DIACHI>789 Nguyen Trai</DIACHI>
+        <SDT>0911223344</SDT>
+        <Lop>L002</Lop>
+    </SINHVIEN>
+
+</DSSV>

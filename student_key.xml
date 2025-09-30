@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="student_key.xsd">
+
+    <LOP>
+        <MaLop>CTK42</MaLop>
+        <TenLop>Công nghệ thông tin K42</TenLop>
+    </LOP>
+
+    <LOP>
+        <MaLop>QTKD01</MaLop>
+        <TenLop>Quản trị kinh doanh 01</TenLop>
+    </LOP>
+
+    <SINHVIEN>
+        <MaSV>SV001</MaSV>
+        <HoTen>Nguyen Van A</HoTen>
+        <Lop>CTK42</Lop>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MaSV>SV002</MaSV>
+        <HoTen>Tran Thi B</HoTen>
+        <Lop>CTK42</Lop>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MaSV>SV003</MaSV>
+        <HoTen>Le Van C</HoTen>
+        <Lop>QTKD01</Lop>
+    </SINHVIEN>
+
+</DSSV>

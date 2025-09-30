@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://example.com/quanan" xsi:schemaLocation="http://example.com/quanan quanan.xsd">
+    <BAN>
+        <TENBAN>B01</TENBAN>
+        <SOBAN>1</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B02</TENBAN>
+        <SOBAN>2</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B03</TENBAN>
+        <SOBAN>3</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B04</TENBAN>
+        <SOBAN>4</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>B05</TENBAN>
+        <SOBAN>5</SOBAN>
+    </BAN>
+    <NHANVIEN>
+        <MANV>NV01</MANV>
+        <TENNV>Nguyen Van A</TENNV>
+        <SDT>0123456789</SDT>
+        <DIACHI>123 Le Loi</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>nguyenvana</USERNAME>
+        <PASSWORD>password123</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV02</MANV>
+        <TENNV>Tran Thi B</TENNV>
+        <SDT>0987654321</SDT>
+        <DIACHI>456 Tran Hung Dao</DIACHI>
+        <GIOITINH>Nu</GIOITINH>
+        <USERNAME>tranthib</USERNAME>
+        <PASSWORD>securepass456</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV03</MANV>
+        <TENNV>Le Van C</TENNV>
+        <SDT>0911223344</SDT>
+        <DIACHI>789 Nguyen Trai</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>levanc</USERNAME>
+        <PASSWORD>mypassword789</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV04</MANV>
+        <TENNV>Pham Thi D</TENNV>
+        <SDT>0909090909</SDT>
+        <DIACHI>321 Hai Ba Trung</DIACHI>
+        <GIOITINH>Nu</GIOITINH>
+        <USERNAME>phamthid</USERNAME>
+        <PASSWORD>verysecure000</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV05</MANV>
+        <TENNV>Do Van E</TENNV>
+        <SDT>0933445566</SDT>
+        <DIACHI>654 Vo Thi Sau</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>dovane</USERNAME>
+        <PASSWORD>bestpassword111</PASSWORD>
+    </NHANVIEN>
+    <MON>
+        <MAMON>M01</MAMON>
+        <TENMON>Com tam</TENMON>
+        <GIA>30000</GIA>
+        <HINHANH>comtam.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M02</MAMON>
+        <TENMON>Pho bo</TENMON>
+        <GIA>40000</GIA>
+        <HINHANH>phobo.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M03</MAMON>
+        <TENMON>Bun rieu</TENMON>
+        <GIA>35000</GIA>
+        <HINHANH>bunrieu.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M04</MAMON>
+        <TENMON>Tra sua</TENMON>
+        <GIA>25000</GIA>
+        <HINHANH>trasua.jpg</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M05</MAMON>
+        <TENMON>Ca phe</TENMON>
+        <GIA>20000</GIA>
+        <HINHANH>caphe.jpg</HINHANH>
+    </MON>
+    <HOADON>
+        <SOHD>1</SOHD>
+        <NGAYLAP>2025-09-30</NGAYLAP>
+        <TONGTIEN>60000</TONGTIEN>
+        <BAN>B01</BAN>
+        <NHANVIEN>NV01</NHANVIEN>
+        <CTHD>
+            <MAMON>M01</MAMON>
+            <SOLUONG>2</SOLUONG>
+        </CTHD>
+    </HOADON>
+
+    <HOADON>
+        <SOHD>2</SOHD>
+        <NGAYLAP>2025-09-30</NGAYLAP>
+        <TONGTIEN>40000</TONGTIEN>
+        <BAN>B02</BAN>
+        <NHANVIEN>NV02</NHANVIEN>
+        <CTHD>
+            <MAMON>M02</MAMON>
+            <SOLUONG>1</SOLUONG>
+        </CTHD>
+    </HOADON>
+
+</QUANAN>
